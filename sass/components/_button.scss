@@ -33,6 +33,14 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
@@ -67,12 +75,12 @@
     &:hover {
         background-color: $color-primary;
         color: $color-white;
-        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        box-shadow: $default-box-shadow;
         transform: translateY(-2px);
     }
 
     &:active {
-        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        box-shadow: $default-box-shadow;
         transform: translateY(0);
     }
 }

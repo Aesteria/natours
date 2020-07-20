@@ -1,2 +1,5 @@
 /node_modules
 /.idea
+style.comp.css
+style.concat.css
+style.prefix.css

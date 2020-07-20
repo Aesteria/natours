@@ -17,14 +17,14 @@
 
     @include clearfix;
 
-    [class^="col-"] {
+    [class^='col-'] {
         float: left;
 
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
 
             @include respond(tab-port) {
-                marin-right: 0;
+                margin-right: 0;
                 margin-bottom: $gutter-vertical-small;
             }
         }

@@ -7,7 +7,7 @@
         padding: 1.5rem 4rem;
         display: inline-block;
         border-radius: 10rem;
-        transition: all .2s;
+        transition: all 0.2s;
         position: relative;
         font-size: $default-font-size;
 
@@ -18,7 +18,7 @@
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
             opacity: 0;
@@ -29,7 +29,7 @@
     &:focus {
         outline: none;
         transform: translateY(-1px);
-        box-shadow: 0 .5px 1rem rgba($color-black, .2);
+        box-shadow: 0 0.5px 1rem rgba($color-black, 0.2);
     }
 
     &--white {
@@ -58,11 +58,11 @@
         top: 0;
         left: 0;
         z-index: -1;
-        transition: all .4s;
+        transition: all 0.4s;
     }
 
     &--animated {
-        animation: moveInBottom .5s ease-out .75s;
+        animation: moveInBottom 0.5s ease-out 0.75s;
         animation-fill-mode: backwards;
     }
 }
@@ -76,7 +76,7 @@
         text-decoration: none;
         border-bottom: 1px solid $color-primary;
         padding: 3px;
-        transition: all .2s;
+        transition: all 0.2s;
     }
 
     &:hover {

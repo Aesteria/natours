@@ -9,12 +9,12 @@
         font-family: inherit;
         padding: 1.5rem 2rem;
         border-radius: 2px;
-        background-color: rgba($color-white, .5);
+        background-color: rgba($color-white, 0.5);
         border: none;
         border-bottom: 3px solid transparent;
         width: 90%;
         display: block;
-        transition: all .3s;
+        transition: all 0.3s;
 
         @include respond(tab-port) {
             width: 100%;
@@ -22,7 +22,7 @@
 
         &:focus {
             outline: none;
-            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
             border-bottom: 3px solid $color-primary;
         }
         &::placeholder {
@@ -37,9 +37,9 @@
         font-size: 1.2rem;
         font-weight: 700;
         margin-left: 2rem;
-        margin-top: .7rem;
+        margin-top: 0.7rem;
         display: block;
-        transition: all .3s;
+        transition: all 0.3s;
     }
 
     &__input:placeholder-shown + &__label {
@@ -76,10 +76,10 @@
         display: inline-block;
         position: absolute;
         left: 0;
-        top: -.7rem;
+        top: -0.7rem;
 
         &::after {
-            content: '';
+            content: "";
             height: 1.2rem;
             width: 1.2rem;
             background-color: $color-primary;
@@ -87,7 +87,7 @@
             border-radius: 50%;
             @include centerHorizontalVertical;
             opacity: 0;
-            transition: opacity .2s;
+            transition: opacity 0.2s;
         }
     }
 

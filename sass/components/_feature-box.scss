@@ -1,11 +1,11 @@
 .feature-box {
-    background-color: rgba($color-white, .8);
+    background-color: rgba($color-white, 0.8);
     font-size: 1.5rem;
     padding: 2.5rem;
     text-align: center;
     border-radius: $default-border-radius;
     box-shadow: $default-box-shadow;
-    transition: transform .3s;
+    transition: transform 0.3s;
 
     @include respond(tab-port) {
         padding: 2rem;
@@ -14,7 +14,7 @@
     &__icon {
         display: inline-block;
         font-size: 6rem;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
         background-image: linear-gradient(to right, #7ed56f, #28b485);
         background-clip: text;
         -webkit-background-clip: text;

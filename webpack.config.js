@@ -14,6 +14,10 @@ module.exports = {
   devtool: "source-map",
   target,
 
+  output: {
+    assetModuleFilename: "img/[hash][ext][query]"
+  },
+
   module: {
     rules: [
       {
@@ -24,8 +28,12 @@ module.exports = {
         }
       },
       {
-        test: /\.scss/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
+        test: /\.scss$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'resolve-url-loader', 'sass-loader']
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|mp4|webm)$/i,
+        type: 'asset/resource'
       }
     ]
   },

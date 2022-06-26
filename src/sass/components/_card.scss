@@ -70,7 +70,7 @@
                     $color-secondary-light,
                     $color-secondary-dark
                 ),
-                url('../img/nat-5-small.jpg');
+                url('../../img/nat-5-small.jpg');
 
             @media (min-resolution: 192dpi) and (min-width: 37.5em),
                 (min-width: 125em) {
@@ -79,7 +79,7 @@
                         $color-secondary-light,
                         $color-secondary-dark
                     ),
-                    url('../img/nat-5.jpg');
+                    url('../../img/nat-5.jpg');
             }
         }
 
@@ -89,7 +89,7 @@
                     $color-primary-light,
                     $color-primary-dark
                 ),
-                url('../img/nat-6-small.jpg');
+                url('../../img/nat-6-small.jpg');
 
             @media (min-resolution: 192dpi) and (min-width: 37.5em),
                 (min-width: 125em) {
@@ -98,7 +98,7 @@
                         $color-primary-light,
                         $color-primary-dark
                     ),
-                    url('../img/nat-6.jpg');
+                    url('../../img/nat-6.jpg');
             }
         }
 
@@ -108,7 +108,7 @@
                     $color-tertiary-light,
                     $color-tertiary-dark
                 ),
-                url('../img/nat-7-small.jpg');
+                url('../../img/nat-7-small.jpg');
 
             @media (min-resolution: 192dpi) and (min-width: 37.5em),
                 (min-width: 125em) {
@@ -117,7 +117,7 @@
                         $color-tertiary-light,
                         $color-tertiary-dark
                     ),
-                    url('../img/nat-7.jpg');
+                    url('../../img/nat-7.jpg');
             }
         }
     }

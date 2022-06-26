@@ -5,3 +5,4 @@ const person = {
 };
 
 console.log(person);
+console.log({...person, age: 11});
